@@ -48,9 +48,12 @@
 
 <main id="main">
   <!-- ======= About Section ======= -->
-  <section id="about" class="about-mf sect-pt4 route">
+  <section 
+    id="about" 
+    class="about-mf sect-pt4 route"
+    >
     <div class="container">
-      <div class="row">
+      <div class="row rounded">
         <div class="col-sm-12">
           <div class="box-shadow-full">
             <div class="row">
@@ -170,7 +173,7 @@
 
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio-mf sect-pt4 route">
-    <div class="container">
+    <div class="container rounded">
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
@@ -222,7 +225,7 @@
   <section
     id="contact"
     class="paralax-mf footer-paralax bg-image sect-mt4 route"
-    style="background-image: url(assets/img/overlay-bg.jpg)"
+    style="background-image: url(../../static/base/img/overlay-bg.jpg)"
   >
     <div class="overlay-mf"></div>
     <div class="container">
@@ -237,7 +240,6 @@
                   </div>
                   <div>
                     <form
-                      action="forms/contact.php"
                       method="post"
                       role="form"
                       class="php-email-form"
@@ -284,6 +286,7 @@
                             <textarea
                               class="form-control"
                               name="message"
+                              id="message"
                               rows="5"
                               placeholder="Message"
                               required
