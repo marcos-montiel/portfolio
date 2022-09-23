@@ -1,16 +1,10 @@
-from django.views.generic import TemplateView
-from django.core.mail import send_mail
+from django.urls import reverse_lazy
+from django.views.generic import FormView
+
+from .forms import EmailForm
 
 # Create your views here.
-class IndexView(TemplateView):
+class IndexView(FormView):
   template_name = 'base/index.html'
-
-  def post(self, request, *args, **kwargs):
-    name = request.POST.get('name')
-    email = request.POST.get('email')
-    subject = request.POST.get('subject')
-    ms = request.POST.get('message')
-
-    message = name + " - " + ms    
-
-    send_mail(subject, message, email, ['marcosmontielrej@gmail.com'])
+  form_class = EmailForm
+  success_url = reverse_lazy('index')
