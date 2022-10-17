@@ -5,8 +5,8 @@ These are the main files of my portfolio. I use Django as backend and CSS and Bo
 ## Author - 
 **Marcos Montiel**
 
-*[Linkedin](https://www.linkedin.com/in/marcosmontielrej)
-*[Portfolio Web]()
+* [Linkedin](https://www.linkedin.com/in/marcosmontielrej)
+* [Portfolio Web]()
 
 ## See live example
 - [Portfolio Web]()
