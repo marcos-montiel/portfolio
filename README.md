@@ -2,8 +2,7 @@
 
 These are the main files of my portfolio. I use Django as backend and CSS and Bootstrap as frontend.
 
-## Author -
-**Marcos Montiel**
+## Author - **Marcos Montiel**
 
 *[Linkedin](https://www.linkedin.com/in/marcosmontielrej)
 *[Portfolio Web]()
